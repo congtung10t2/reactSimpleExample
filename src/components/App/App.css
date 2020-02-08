@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+.App-body {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.filler {
+  background: #1DA598;
+  height: 100%;
+  text-align: center;
+  border-radius: inherit;
+  transition: width .5s ease-in;
+}
+.filler.red {
+  background: #f00;
+}
+.text{
+  position: absolute;
+  top: 5px;
+  font-size: 20;
+  display: inline;
+}
+.progress-bar {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
+.select-bar {
+  float: left;
+  margin: 10px;
+  width: 20%;
+  border: 1px black;
+}
+button {
+  background-color: #ffd;
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+  width: 20%;
+}
+.content {
+ width: 80%;
+}
+.command-div{
+  display: flex;
+  height: 40px;
+  width: 100%;
+}
